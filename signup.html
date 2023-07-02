@@ -1,0 +1,210 @@
+Berikut adalah kode HTML yang telah diubah untuk menampilkan form pendaftaran (signup) dengan field username, password, email, dan tombol Register:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LEC - Register</title>
+
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/svg" />
+
+    <!-- ===== All CSS files ===== -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/lineicons.css" />
+    <link rel="stylesheet" href="assets/css/ud-styles.css" />
+  </head>
+  <body>
+    <!-- ====== Header Start ====== -->
+    <header class="ud-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <nav class="navbar navbar-expand-lg">
+              <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo/logo.svg" alt="Logo" />
+              </a>
+              <button class="navbar-toggler">
+                <span class="toggler-icon"> </span>
+                <span class="toggler-icon"> </span>
+                <span class="toggler-icon"> </span>
+              </button>
+
+              <div class="navbar-collapse">
+                <ul id="nav" class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                    <a class="ud-menu-scroll" href="https://lec-gemastik.github.io/landing-page-lec/index.html"
+                      >Home</a
+                    >
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="ud-menu-scroll" href="https://lec-gemastik.github.io/landing-page-lec/index.html#about"
+                      >About</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="ud-menu-scroll" href="https://lec-gemastik.github.io/landing-page-lec/index.html#team"
+                      >Team</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div class="navbar-btn d-none d-sm-inline-block">
+                <a href="login.html" class="ud-main-btn ud-login-btn">Sign In</a>
+                <a class="ud-main-btn ud-white-btn" href="javascript:void(0)">Sign Up</a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ====== Header End ====== -->
+
+    <!-- ====== Banner Start ====== -->
+    <section class="ud-page-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="ud-banner-content">
+              <h1>Sign Up LEC</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====== Banner End ====== -->
+
+    <!-- ====== Signup Start ====== -->
+    <section class="ud-login">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="ud-login-wrapper">
+              <div
+
+ class="ud-login-logo">
+                <img src="assets/images/logo/LEC-logo.png" alt="logo" />
+              </div>
+              <form class="ud-login-form">
+                <div class="ud-form-group">
+                  <input type="text" name="username" placeholder="Username" />
+                </div>
+                <div class="ud-form-group">
+                  <input type="password" name="password" placeholder="Password" />
+                </div>
+                <div class="ud-form-group">
+                  <input type="email" name="email" placeholder="Email" />
+                </div>
+                <div class="ud-form-group">
+                  <button type="submit" class="ud-main-btn w-100">Register</button>
+                </div>
+              </form>
+
+              <div class="ud-socials-connect">
+                <p>Connect With</p>
+
+                <ul>
+                  <li>
+                    <a href="javascript:void(0)" class="facebook"
+                      ><i class="lni lni-facebook-filled"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)" class="twitter"
+                      ><i class="lni lni-twitter-filled"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)" class="google"
+                      ><i class="lni lni-google"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+
+              <a class="forget-pass" href="javascript:void(0)">Forget Password?</a>
+              <p class="signup-option">
+                Already a member? <a href="login.html">Sign In</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====== Signup End ====== -->
+
+    <!-- ====== Footer Start ====== -->
+    <footer class="ud-footer wow fadeInUp" data-wow-delay=".15s">
+      <div class="shape shape-1">
+        <img src="assets/images/footer/shape-1.svg" alt="shape" />
+      </div>
+      <div class="shape shape-2">
+        <img src="assets/images/footer/shape-2.svg" alt="shape" />
+      </div>
+      <div class="shape shape-3">
+        <img src="assets/images/footer/shape-3.svg" alt="shape" />
+      </div>
+      <div class="ud-footer-widgets">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-3 col-lg-4 col-md-6">
+              <div class="ud-widget">
+                <a href="index.html" class="ud-footer-logo">
+                  <img src="assets/images/logo/logo.svg" alt="logo" />
+                </a>
+                <p class="ud-widget-desc">
+                  We create digital experiences for brands and companies by using technology.
+                </p>
+                <ul class="ud-widget-socials">
+                  <li>
+                    <a href="https://twitter.com/MusharofChy"
+                      ><i class="lni lni-facebook-filled"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/MusharofChy"
+                      ><i class="lni lni-twitter-filled"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/MusharofChy"
+                      ><i class="lni lni-instagram-filled"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href
+
+="https://twitter.com/MusharofChy"
+                      ><i class="lni lni-linkedin-original"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ====== Footer End ====== -->
+
+    <!-- ====== Back To Top Start ====== -->
+    <a href="javascript:void(0)" class="back-to-top">
+      <i class="lni lni-chevron-up"> </i>
+    </a>
+    <!-- ====== Back To Top End ====== -->
+
+    <!-- ====== All Javascript Files ====== -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
+```
+
+Anda dapat menggunakan kode tersebut untuk menggantikan konten pada file HTML login sebelumnya agar menampilkan form pendaftaran (signup) dengan field yang diinginkan.
