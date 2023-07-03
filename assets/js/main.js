@@ -15,9 +15,9 @@
 
     // === logo change
     if (ud_header.classList.contains("sticky")) {
-      logo.src = "assets/images/logo/fikblue.png"; // Ini Logo -->
+      logo.src = "assets/images/logo/1.png"; // Ini Logo -->
     } else {
-      logo.src = "assets/images/logo/fikwhite.png"; //Ini Logo -->
+      logo.src = "assets/images/logo/2.png"; //Ini Logo -->
     }
 
     // show or hide the back-top-top button
