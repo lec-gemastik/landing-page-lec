@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $("#signup").submit(function (event) {
-        const endpointApi = "https://calender.lec-gemastik.or.id"
+        const endpointApi = "https://api.lec-gemastik.or.id"
 
         event.preventDefault()
 
