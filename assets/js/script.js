@@ -70,9 +70,7 @@ $(document).ready(function () {
                     allowOutsideClick: false,
                     allowEscapeKey: false,
                 }).then(e => {
-                    window.localStorage.setItem("token", data.data.token)
-                    window.localStorage.setItem("user", data.data.role_id)
-                    window.location = endpointCalender
+                    window.location = `${endpointCalender}/?token=${data.data.token}&user=${data.data.role_id}`
                 })
             },
             error: function(error) {
