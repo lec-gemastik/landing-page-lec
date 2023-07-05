@@ -2,6 +2,7 @@ $(document).ready(function () {
     $("#signup").submit(function (event) {
         const endpointApi = "https://api.lec-gemastik.or.id"
 
+
         event.preventDefault()
 
         let username = $("#username").val();
@@ -43,7 +44,8 @@ $(document).ready(function () {
     })
 
     $("#signin").submit(function (event) {
-        const endpointApi = "http://localhost:8080"
+        const endpointApi = "https://api.lec-gemastik.or.id"
+        const endpointCalender = "https://calender.lec-gemastik.or.id"
 
         event.preventDefault()
 
@@ -70,7 +72,7 @@ $(document).ready(function () {
                 }).then(e => {
                     window.sessionStorage.setItem("token", data.data.token)
                     window.sessionStorage.setItem("user", data.data.role_id)
-                    window.location = "/calender"
+                    window.location = endpointCalender
                 })
             },
             error: function(error) {
