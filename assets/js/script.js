@@ -70,8 +70,8 @@ $(document).ready(function () {
                     allowOutsideClick: false,
                     allowEscapeKey: false,
                 }).then(e => {
-                    window.sessionStorage.setItem("token", data.data.token)
-                    window.sessionStorage.setItem("user", data.data.role_id)
+                    window.localStorage.setItem("token", data.data.token)
+                    window.localStorage.setItem("user", data.data.role_id)
                     window.location = endpointCalender
                 })
             },
