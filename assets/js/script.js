@@ -45,7 +45,7 @@ $(document).ready(function () {
 
     $("#signin").submit(function (event) {
         const endpointApi = "https://api.lec-gemastik.or.id"
-        const endpointCalender = "https://calender.lec-gemastik.or.id"
+        const endpointCalendar = "https://calendar.lec-gemastik.or.id"
 
         event.preventDefault()
 
@@ -70,7 +70,7 @@ $(document).ready(function () {
                     allowOutsideClick: false,
                     allowEscapeKey: false,
                 }).then(e => {
-                    window.location = `${endpointCalender}/?token=${data.data.token}&user=${data.data.role_id}`
+                    window.location = `${endpointCalendar}/?token=${data.data.token}&user=${data.data.role_id}`
                 })
             },
             error: function(error) {
