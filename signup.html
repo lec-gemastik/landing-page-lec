@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="assets/css/animate.css" />
     <link rel="stylesheet" href="assets/css/lineicons.css" />
     <link rel="stylesheet" href="assets/css/ud-styles.css" />
+    <link rel="stylesheet" href="assets/css/sweetalert2.min.css" />
   </head>
   <body>
     <!-- ====== Header Start ====== -->
@@ -85,15 +86,15 @@
  class="ud-login-logo">
                 <img src="assets/images/logo/New.png" alt="logo" /><!-- Ini Logo Ok-->
               </div>
-              <form class="ud-login-form">
+              <form id="signup" class="ud-login-form">
                 <div class="ud-form-group">
-                  <input type="text" name="username" placeholder="Nama Pengguna" />
+                  <input type="text" name="username" id="username" placeholder="Nama Pengguna" />
                 </div>
                 <div class="ud-form-group">
-                  <input type="password" name="password" placeholder="Kata Sandi" />
+                  <input type="password" name="password" id="password" placeholder="Kata Sandi" />
                 </div>
                 <div class="ud-form-group">
-                  <input type="email" name="email" placeholder="Email" />
+                  <input type="email" name="email" id="email" placeholder="Email" />
                 </div>
                 <div class="ud-form-group">
                   <button type="submit" class="ud-main-btn w-100">Daftar</button>
@@ -195,5 +196,8 @@
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/sweetalert2.all.min.js"></script>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
