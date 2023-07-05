@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="assets/css/animate.css" />
     <link rel="stylesheet" href="assets/css/lineicons.css" />
     <link rel="stylesheet" href="assets/css/ud-styles.css" />
+    <link rel="stylesheet" href="assets/css/sweetalert2.min.css" />
   </head>
   <body>
     <!-- ====== Header Start ====== -->
@@ -82,16 +83,16 @@
               <div class="ud-login-logo">
                 <img src="assets/images/logo/New.png" alt="logo" />
               </div>
-              <form class="ud-login-form">
+              <form id="signin" class="ud-login-form">
                 <div class="ud-form-group">
-                  <input
+                  <input id="email"
                     type="email"
                     name="email"
                     placeholder="Email/Nama Pengguna"
                   />
                 </div>
                 <div class="ud-form-group">
-                  <input
+                  <input id="password"
                     type="password"
                     name="password"
                     placeholder="*********"
@@ -199,5 +200,8 @@
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/sweetalert2.all.min.js"></script>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
